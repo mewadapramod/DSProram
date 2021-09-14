@@ -1,21 +1,32 @@
-package arrayNumber;
+package stringLogic;
 class Solution {
-    public static int findNumbers(int[] nums) {
-        
-        int count =0;
-        
-for(int num : nums)  
-    
-    if(String.valueOf(num).length() % 2 == 0){
-        count++;
+    public static String removeDuplicateLetters(String s) {
+        int [] cnt = new int [26];
+        for (int i = 0; i < s.length(); i++){
+        	System.out.println("----------");
+
+        	char c = s.charAt(i);
+        	System.out.println("charPrint "+c);
+
+        	int ch = s.charAt(i) - 'a';
+        	System.out.println("index "+ ch);
+           cnt[s.charAt(i) - 'a']++;
+        }
+
+        int pos = 0;
+        for(int i = 0; i < s.length(); i++){
+            if(s.charAt(pos) > s.charAt(i)) pos = i;
+            if (--cnt[s.charAt(i) - 'a'] == 0) break;
+        }
+
+        return s.length() == 0 ? "": s.charAt(pos) + removeDuplicateLetters(s.substring(pos + 1).replaceAll("" + s.charAt(pos), ""));
     }
-        return count;
-    }
     
-    public static void main(String[]args) {
+    
+    public static void main(String [] args) {
     	
-    	int []arr = {12,345,2,6,7896};
+    	String str  = "abcdefghz";
     	
-    	System.out.println(findNumbers(arr));
+    	System.out.println(removeDuplicateLetters(str));
     }
 }
