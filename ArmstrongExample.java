@@ -1,4 +1,4 @@
-package ArraysTest;
+package arrayNumber;
 
 public class ArmstrongExample {
 

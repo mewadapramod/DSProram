@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 import java.util.HashMap;
 
@@ -34,7 +34,7 @@ public class FirstNonRepeatedChar {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		String s = "Hello";
+		String s = "papacdcdctaaf";
 
 		System.out.println(firstNonRepeated(s));
 

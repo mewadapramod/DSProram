@@ -1,4 +1,5 @@
-package stringLogic;
+package arrayNumber;
+
 class Swap
 {   
     public static void main(String args[])

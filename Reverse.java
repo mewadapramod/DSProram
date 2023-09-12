@@ -5,7 +5,7 @@ public class Reverse {
 		int codedMessage[] = { 334, 384, 105, 222, 61, 2, 175, 228, 114, 235, 241, 213, 206, 3, 321, 152, 214, 137, 224,
 				500 };
 		String num;
-		int message[] = new int[codedMessage.length];
+			int message[] = new int[codedMessage.length];
 		for (int i = 0; i < codedMessage.length; i++) {
 			num = codedMessage[i] + "";
 			if (num.length() >= 1) {

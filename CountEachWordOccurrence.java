@@ -9,10 +9,6 @@ public class CountEachWordOccurrence {
 	public static void countWords(String input) {
 		Map<String,Integer> map = new LinkedHashMap<String,Integer>();
 		
-        
-		
-
-		
 		if(input != null) {
 			
 			String[] separate = input.split(" ");

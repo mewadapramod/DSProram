@@ -34,7 +34,7 @@ public class LengthOfLongestSubString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String input = "ababc";
+		String input = "ababcabcd";
 
 		
 		LengthOfLongestSubString test =new LengthOfLongestSubString();

@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 public class ReverseStringPreserveSpace {
 	
@@ -52,7 +52,7 @@ public class ReverseStringPreserveSpace {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-	    String str = "internship at geeks for geeks";
+	    String str = "internship at peeks at peeks";
 
 	    preserveSpace(str);
 

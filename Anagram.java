@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,13 +15,13 @@ public class Anagram {
 		
        int[] count = new int[26];
        
-       for(int i =0; i < x.length(); i++) {
+       for(int i = 0; i < x.length(); i++) {
     	   
     	   count[x.charAt(i) - 'a']++;
     	   count[y.charAt(i) - 'a'] --;
     	   
-       } 
-       
+       }
+
        for(int i : count) {
             if(i !=0 ) 
        { 
@@ -34,8 +34,8 @@ public class Anagram {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		 String X = "keeps";        // Tom Marvolo Riddle
-	        String Y = "peeks";
+		 String X = "KEEPS";        // Tom Marvolo Riddle
+	        String Y = "PEEKS";
 
 		System.out.println(isAnagram(X, Y));
 		

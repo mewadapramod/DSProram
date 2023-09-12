@@ -1,5 +1,6 @@
-package ArraysTest;
-class RotateArray { 
+package arrayNumber;
+
+class RotateArray {
     /*Function to left rotate arr[] of size n by d*/
     void leftRotate(int arr[], int d, int n) 
     { 

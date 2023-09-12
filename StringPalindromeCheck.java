@@ -32,7 +32,7 @@ public class StringPalindromeCheck {
 
 		
 		
-		String str = "abc";
+		String str = "aba";
 		
 		
 		System.out.println(isPalindorme(str));

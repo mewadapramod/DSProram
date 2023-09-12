@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 import java.util.HashMap;
 import java.util.Map;

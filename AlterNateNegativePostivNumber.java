@@ -1,4 +1,6 @@
-package ArraysTest;
+package arrayNumber;
+
+import java.util.Arrays;
 
 public class AlterNateNegativePostivNumber {
 
@@ -56,5 +58,7 @@ public class AlterNateNegativePostivNumber {
 	 
 	        // print the rearranged array
 	        System.out.println(Arrays.toString(A));
+
+
 	    }
 	}

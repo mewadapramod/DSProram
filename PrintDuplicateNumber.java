@@ -1,4 +1,4 @@
-package ArraysTest;
+package arrayNumber;
 
 public class PrintDuplicateNumber {
 	
@@ -15,7 +15,7 @@ public class PrintDuplicateNumber {
 				
 				if(arr[i]==arr[j]) {
 					
-					System.out.println(arr[j]);
+					System.out.println(arr[i]);
 				}
 				
 			}

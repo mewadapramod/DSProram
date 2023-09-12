@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 public class ReverseWords {
 
@@ -23,7 +23,7 @@ public class ReverseWords {
 		
 		System.out.println(reverse);
 		
-		System.out.println(reverse.substring(0, reverse.length()-1));
+//		System.out.println(reverse.substring(0, reverse.length()-1));
 	}
 
 }

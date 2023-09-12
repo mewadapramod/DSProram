@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 public class ReveraseEachWord {
 

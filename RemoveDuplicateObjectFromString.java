@@ -1,4 +1,4 @@
-package stringLogic;
+package arrayNumber;
 
 import java.util.Arrays;
 
@@ -20,7 +20,8 @@ public class RemoveDuplicateObjectFromString {
 				newStr+=ch;			
 			}
 		}
-		char tempArray[] = newStr.toCharArray();
+		System.out.println("before"+newStr);
+		char[] tempArray = newStr.toCharArray();
         
         // sort tempArray
         Arrays.sort(tempArray);
